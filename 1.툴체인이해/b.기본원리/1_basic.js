@@ -14,6 +14,6 @@ function LikeButton() {
 }
 
 const domContainer = document.querySelector('#react-root');
-// basic_101.html 파일에 미리 만들어 뒀던 돔 요소를 가져온다
+// 1_basic.html 파일에 미리 만들어 뒀던 돔 요소를 가져온다
 ReactDOM.render(React.createElement(LikeButton), domContainer);
 // react-dom.development.js에서 전역변수로 생성된 ReactDOM 을 사용하여 만든 함수를 돔 요소에 붙인다

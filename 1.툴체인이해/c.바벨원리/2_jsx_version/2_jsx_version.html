@@ -1,0 +1,26 @@
+<html>
+
+<body>
+    <h2>안녕하세요. 이 프로젝트가 마음에 드시면 좋아요 버튼을 눌러주세요.</h2>
+    <div id="react-root"></div>
+    <script src="../../a.리액트핵심파일/react.development.js"></script>
+    <script src="../../a.리액트핵심파일/react-dom.development.js"></script>
+    <script src="src/2_jsx_version.js"></script>
+    <!-- src에 담긴 파일은 JSX로 작성되었기 때문에 위 코드는 읽을 수 없다 -->
+    <script src="2_jsx_version.js"></script>
+</body>
+
+<!-- 
+    1. 바벨 사용 준비하기
+      npm install @babel/core @babel/cli @babel/preset-react
+      >> node_modules 폴더와 package.json, package-lock.json 파일들이 생성되면서 
+       현재 프로젝트에 바벨 컴파일러 설치됨
+       * node_modules는 깃에 올리지 않음
+    
+    2. 자바스크립트 파일변환
+      npx babel --watch src --out-dir . --presets @babel/preset-react
+      >> src에 있는 파일을 감지하여 파일 변경시 변환작업 자동으로 실행 및
+        변환된 파일을 현재디렉토리(.)에 저장
+-->
+
+</html>
