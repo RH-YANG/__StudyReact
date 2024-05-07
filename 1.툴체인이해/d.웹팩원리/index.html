@@ -1,0 +1,37 @@
+<html>
+
+<body>
+    <h2>안녕하세요. 이 프로젝트가 마음에 드시면 좋아요 버튼을 눌러주세요.</h2>
+    <div id="react-root"></div>
+    <!-- 
+        이제부터 아래 두 리액트 파일은 모듈 시스템을 이용해서 main.js에 포함될 예정
+    <script src="../a.리액트핵심파일/react.development.js"></script>
+    <script src="../a.리액트핵심파일/react-dom.development.js"></script> 
+    -->
+    <script src="dist/main.js"></script>
+</body>
+
+
+<!--
+    1. 프로젝트 초기화하기
+      npm init -y
+      >> 기본정보의 package.json 생성
+    
+    2. 웹팩 설치
+       npm install webpack webpack-cli 
+       >> package.json의 dependencies에 "webpack", "webpack-cli"가 추가됨
+       >> package-lock.json 자동생성
+
+    3. 리액트 설치
+       npm install react react-dom
+       >> dependencies에 "react", "react-dom"가 추가됨
+       >> [a.리액트핵심파일]에 있는 파일이 포함되어있음
+       이를 모듈시스템을 이용해서 프로젝트에 포함한다
+    
+    4. 웹팩 실행
+       npx webpack
+       >> 루트디렉토리의 src 폴더에 있는 소스코드들을 번들링하여
+         dist폴더에 main.js 파일 생성
+-->
+
+</html>
