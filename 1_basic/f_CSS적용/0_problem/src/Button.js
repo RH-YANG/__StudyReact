@@ -1,5 +1,5 @@
 import React from 'react';
-import './Button1.css';
+import './Button.css';
 
 function Button({ size }) {
     if (size === 'big') {
