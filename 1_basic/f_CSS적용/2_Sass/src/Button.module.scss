@@ -1,0 +1,14 @@
+@import './shared.scss';
+
+.big {
+    width: 100px;
+}
+
+.small {
+    width: 50px;
+}
+
+.button {
+    height: 30px;
+    background-color: $infoColor; // 다른 컴포넌트에서 정의된 변수를 사용
+}
