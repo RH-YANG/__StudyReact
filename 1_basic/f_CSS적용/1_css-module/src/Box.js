@@ -18,7 +18,7 @@ import style from './Box.module.css';
 import cn from 'classnames';
 
 function Box({ size }) {
-    const isBig = size === 'big';
+    const isBig = size === 'big'; // true 또는 false가 담긴다 
     const label = isBig ? '큰 박스' : '작은 박스';
     return (
         <div
